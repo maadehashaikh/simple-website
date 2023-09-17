@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+    overflow: hidden;
+    background-color: rgba(227, 148, 243, 0.592);
+}
+.main{
+    margin-top: 35px;
+    margin-left: 50px;
+    height:90%;
+    width:93%;
+    background-color: rgb(151, 112, 151);
+    display: flex;
+}
+.part1{
+    height: 100%;
+    width: 22%;
+    /* background-color: aquamarine; */
+}
+.part2{
+    height: 100%;
+    width: 63%;
+    background-color: rgb(255, 165, 127);
+    background-image: url(fiver\ gig.webp);
+    background-size: cover;
+    background-position: center;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(58, 11, 63, 0.6 );
+}
+.part3{
+    height: 100%;
+    width: 7%;
+}
+.textdiv{
+    position: absolute;
+    left: 7%;
+    top: 50%;
+    width: 400px;
+    transform: translate(0,-50%);
+}
+.textdiv>h1{
+    font-size: 95px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    line-height: 80px;
+    text-transform: uppercase;
+    line-height: 78px;
+    color: #fff;
+    letter-spacing:-3px;
+}
+.small-img-div{
+    height: 400px;
+    width: 300px;
+    /* background-color: red; */
+    position: absolute;
+    top: 20%;
+    left: 77%;
+    background-image:url(pic.jpg);
+    background-size: cover;
+}
+.second-overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(8, 4, 8, 0.4);
+}
+.vertical-text{
+    position: absolute;
+    transform: rotate(90deg);
+    right: -34%;
+    transform-origin: 0% 0%;
+    top: -1%;
+}
+.vertical-text h1{
+    font-size: 51px;
+    font-weight: 600;
+    font-family: monument;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 2px;
+    color: transparent;
+    letter-spacing: 7px;
+}
+.navbar{
+    position: absolute;
+    width: 350px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    left: 6%;
+    top: 5%;
+}
+.navbar img{
+    height: 75px;
+}
+.navbar h5{
+    font-size: 27px;
+font-family: 'Dancing Script', cursive;
+    color: #fff;
+}
